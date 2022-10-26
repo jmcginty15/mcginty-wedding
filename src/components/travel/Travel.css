@@ -1,0 +1,72 @@
+.Travel {
+  color: var(--light-blue);
+  position: relative;
+  top: 55%;
+  transform: translate(0, -50%);
+  height: 75%;
+  margin: auto;
+  background-color: white;
+  border-radius: 25px;
+  overflow-y: auto;
+  font-family: "Josefin Sans", sans-serif;
+  box-shadow: 0 0 10px #888888;
+}
+
+.Travel-title {
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  font-size: 48px;
+  width: 50%;
+  text-align: center;
+  margin: 30px auto 20px auto;
+  border-bottom: 2px var(--light-blue-transparent-25) solid;
+  padding-bottom: 15px;
+}
+
+.Travel-subtitle {
+  font-weight: bold;
+  width: 100%;
+  margin-left: auto;
+  border-bottom: 2px var(--light-blue-transparent-25) solid;
+}
+
+.Travel-body {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  row-gap: 25px;
+}
+
+.Travel-info {
+  margin: auto 0 auto auto;
+  width: fit-content;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .Travel {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Travel {
+    width: 90%;
+  }
+
+  .Travel-title {
+    width: 85%;
+    margin-bottom: 0;
+  }
+
+  .Travel-body {
+    grid-template-columns: 100%;
+    row-gap: 25px;
+  }
+
+  .Travel-info {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+}

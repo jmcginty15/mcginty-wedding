@@ -1,0 +1,64 @@
+.Photos {
+  color: var(--light-blue);
+  position: relative;
+  top: 55%;
+  transform: translate(0, -50%);
+  height: 75%;
+  margin: auto;
+  background-color: white;
+  border-radius: 25px;
+  overflow-y: auto;
+  font-family: "Josefin Sans", sans-serif;
+  box-shadow: 0 0 10px #888888;
+  background-position-x: center;
+  background-position-y: top;
+  background-size: cover;
+}
+
+.Photos-overlay {
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(#ffffffcc 20%, #ffffff66 80%);
+}
+
+.Photos-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.Photos-title {
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  font-size: 36px;
+  text-align: center;
+  border-bottom: 2px var(--light-blue-transparent-25) solid;
+  padding-bottom: 15px;
+}
+
+.Photos-tagline {
+  font-weight: 400;
+  font-size: 18px;
+  width: fit-content;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .Photos {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Photos {
+    width: 90%;
+  }
+
+  .Photos-text {
+    top: 35%;
+    width: 85%;
+  }
+}

@@ -1,0 +1,214 @@
+.RSVP {
+  color: var(--light-blue);
+  position: relative;
+  top: 55%;
+  transform: translate(0, -50%);
+  height: fit-content;
+  width: fit-content;
+  max-width: 90%;
+  max-height: 75%;
+  margin: auto;
+  background-color: white;
+  border-radius: 25px;
+  overflow-y: auto;
+  font-family: "Josefin Sans", sans-serif;
+  box-shadow: 0 0 10px #888888;
+  padding: 0 2rem;
+}
+
+.RSVP-title {
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  font-size: 48px;
+  text-align: left;
+  margin: 30px auto 20px auto;
+  border-bottom: 2px var(--light-blue-transparent-25) solid;
+  padding-bottom: 15px;
+}
+
+.RSVP-form {
+  margin: 2rem 0;
+  width: 40vw;
+}
+
+.RSVP-button {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 50px !important;
+  background-color: var(--light-blue) !important;
+  border-color: var(--light-blue) !important;
+  padding: 0.5rem 2rem !important;
+}
+
+.RSVP-button-response {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50px !important;
+  background-color: var(--light-blue) !important;
+  border-color: var(--light-blue) !important;
+  padding: 0.25rem 1rem !important;
+}
+
+.RSVP-button:hover,
+.RSVP-button-response:hover {
+  background-color: var(--dark-blue) !important;
+  border-color: var(--dark-blue) !important;
+}
+
+.RSVP-button-outline {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 50px !important;
+  background-color: white !important;
+  border-color: var(--light-blue) !important;
+  padding: 0.5rem 2rem !important;
+  color: var(--light-blue) !important;
+}
+
+.RSVP-button-response-outline {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50px !important;
+  background-color: white !important;
+  border-color: var(--light-blue) !important;
+  padding: 0.25rem 1rem !important;
+  color: var(--light-blue) !important;
+}
+
+.RSVP-button-outline:hover,
+.RSVP-button-response-outline:hover {
+  background-color: var(--dark-blue) !important;
+  border-color: var(--dark-blue) !important;
+  color: white !important;
+}
+
+.RSVP-button-disabled {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 50px !important;
+  background-color: var(--light-blue) !important;
+  border-color: var(--light-blue) !important;
+  padding: 0.5rem 2rem !important;
+}
+
+.RSVP-searching {
+  font-size: 28px;
+}
+
+.RSVP-results {
+  margin: 2rem 0;
+  min-width: 40vw;
+}
+
+.RSVP-results-single,
+.RSVP-results-multiple {
+  text-align: left;
+}
+
+.RSVP-results-card-single {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: var(--light-blue);
+  color: white;
+  border-radius: 3px;
+  width: 100%;
+  padding: 1rem;
+  font-size: 18px;
+  transition: 0.15s;
+}
+
+.RSVP-results-card-single:hover {
+  background-color: var(--dark-blue);
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.RSVP-results-card-multiple {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: var(--light-blue) solid 2px;
+  border-radius: 3px;
+  width: 100%;
+  padding: 1rem;
+  font-size: 18px;
+  transition: 0.15s;
+}
+
+.RSVP-results-card-selected {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: var(--light-blue) solid 2px;
+  border-radius: 3px;
+  width: 100%;
+  padding: 1rem;
+  font-size: 18px;
+  transition: 0.15s;
+  background-color: var(--light-blue);
+  color: white;
+}
+
+.RSVP-results-card-multiple:hover,
+.RSVP-results-card-selected:hover {
+  background-color: var(--dark-blue);
+  border-color: var(--dark-blue);
+  color: white;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.RSVP-response {
+  text-align: left;
+}
+
+.RSVP-response-card {
+  display: grid;
+  grid-template-columns: 52% 48%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: var(--light-blue) solid 2px;
+  border-radius: 3px;
+  width: 100%;
+  padding: 1rem;
+  font-size: 18px;
+}
+
+.RSVP-response-container {
+  margin: 2rem 0;
+  min-width: 40vw;
+}
+
+.RSVP-thank-you {
+  text-align: left;
+}
+
+#RSVP-number-label {
+  width: 90%;
+}
+
+#RSVP-number-input {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .RSVP-form,
+  .RSVP-results,
+  .RSVP-response-container {
+    width: 65vw;
+  }
+}
+
+.RSVP-response-button-container {
+  width: 100%;
+  text-align: right;
+}
+
+.RSVP-kids-container {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  margin: 25px 0;
+}

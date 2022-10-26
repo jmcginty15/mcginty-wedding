@@ -1,0 +1,80 @@
+.Registry {
+  color: var(--light-blue);
+  position: relative;
+  top: 55%;
+  transform: translate(0, -50%);
+  height: 75%;
+  margin: auto;
+  background-color: white;
+  border-radius: 25px;
+  overflow-y: auto;
+  font-family: "Josefin Sans", sans-serif;
+  box-shadow: 0 0 10px #888888;
+  background-position-x: center;
+  background-position-y: -50px;
+  background-size: auto 155%;
+}
+
+.Registry-overlay {
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(#ffffffcc 20%, #ffffff66 80%);
+}
+
+.Registry-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.Registry-title {
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  font-size: 36px;
+  text-align: center;
+  border-bottom: 2px var(--light-blue-transparent-25) solid;
+  padding-bottom: 15px;
+}
+
+.Registry-tagline {
+  font-weight: 400;
+  font-size: 18px;
+  width: fit-content;
+  margin: auto;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position-x: -25px;
+  }
+  to {
+    background-position-x: calc(100% + 25px);
+  }
+}
+
+@media (min-width: 768px) {
+  .Registry {
+    width: 85%;
+  }
+}
+
+@media (max-width: 950px) {
+  .Registry {
+    width: 90%;
+    background-size: auto 110%;
+    background-position-y: -25px;
+    animation-name: animatedBackground;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  .Registry-text {
+    top: 35%;
+    width: 85%;
+  }
+}

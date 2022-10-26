@@ -1,0 +1,32 @@
+.NavBar {
+  font-family: "Josefin Sans", sans-serif;
+  height: fit-content;
+  color: var(--light-blue);
+}
+
+#brand-logo-container {
+  font-family: "Pacifico", cursive;
+  color: var(--light-blue);
+}
+
+.NavBar-item {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.NavBar-link {
+  color: var(--light-blue);
+}
+
+.NavBar-link:hover {
+  color: var(--dark-blue);
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+#Nav {
+  background-color: white;
+  padding-right: 40px;
+  padding-left: 40px;
+  box-shadow: 0 0 10px #888888;
+}
