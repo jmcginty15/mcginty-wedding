@@ -85,7 +85,7 @@ const RSVP = () => {
       {
         status: personConfirmed ? "Y" : "N",
         plusOneStatus: plusOneConfirmed ? "Y" : "N",
-        kids,
+        kids: `${kids}`,
       },
       { headers: { "Content-Type": "application/json" } }
     );
