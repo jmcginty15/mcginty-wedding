@@ -26,11 +26,11 @@ const Travel = () => {
         <Map location="reception" />
         <div className="Travel-info">
           <h5 className="Travel-subtitle">Reserved hotel</h5>
-          Holiday Inn & Suites Stillwater - University West
+          The Atherton Hotel at Oklahoma State University
           <br />
-          715 S Country Club Rd
+          H103 Student Union Blvd
           <br />
-          Stillwater, OK 74074
+          Stillwater, OK 74078
           <br />
           <br />
           Call (405) 372-2445 by December 31 to reserve your room at the hotel.

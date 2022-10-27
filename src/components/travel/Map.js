@@ -1,4 +1,4 @@
-import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+import { GoogleMap, Marker } from "@react-google-maps/api";
 import "./Map.css";
 
 const containerStyle = {
@@ -10,7 +10,7 @@ const containerStyle = {
 const coordinates = {
   church: { lat: 36.11298, lng: -97.04665 },
   reception: { lat: 36.121429, lng: -97.067307 },
-  hotel: { lat: 36.11366, lng: -97.12216 },
+  hotel: { lat: 36.120438, lng: -97.068813 },
   airport: { lat: 35.395142, lng: -97.596077 },
 };
 

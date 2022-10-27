@@ -78,17 +78,18 @@ const Home = () => {
         </div>
         <div className="Home-details-title">Accommodations:</div>
         <div className="Home-details-description">
-          We have reserved a block of rooms at the Holiday Inn & Suites at the
-          below address. To reserve a room, call the front desk at (405)
-          372-2445 and let them know you would like a room for the McGinty
+          We have reserved a block of rooms at the Atherton Hotel at the below
+          address. The hotel is connected to the OSU Student Union where the
+          reception will be held. To reserve a room, call the front desk at
+          (405) 372-2445 and let them know you would like a room for the McGinty
           wedding.
           <br />
           <br />
-          Holiday Inn & Suites Stillwater - University West
+          The Atherton Hotel at Oklahoma State University
           <br />
-          715 S Country Club Rd
+          H103 Student Union Blvd
           <br />
-          Stillwater, OK 74074
+          Stillwater, OK 74078
           <br />
           <br />
           For those who will need to fly in, the nearest airport is Will Rogers
