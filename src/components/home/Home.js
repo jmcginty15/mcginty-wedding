@@ -85,7 +85,7 @@ const Home = () => {
           We have reserved a block of rooms at the Atherton Hotel at the below
           address. The hotel is connected to the OSU Student Union where the
           reception will be held. To reserve a room, call the front desk at
-          (405) 372-2445 and let them know you would like a room for the McGinty
+          (405) 744-6835 and let them know you would like a room for the McGinty
           wedding. Rooms are reserved until January 4 and are available on a
           first-come first-served basis.
           <br />

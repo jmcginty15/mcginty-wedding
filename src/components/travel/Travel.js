@@ -33,7 +33,7 @@ const Travel = () => {
           Stillwater, OK 74078
           <br />
           <br />
-          Call (405) 372-2445 by January 4 to reserve your room at the hotel.
+          Call (405) 744-6835 by January 4 to reserve your room at the hotel.
         </div>
         <Map location="hotel" />
         <div className="Travel-info">
