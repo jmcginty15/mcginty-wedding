@@ -29,7 +29,7 @@ const Home = () => {
         </div>
         <div className="Home-details-title">RSVP:</div>
         <div className="Home-details-description">
-          Please RSVP by December 31. To do so,{" "}
+          Please RSVP by January 4. To do so,{" "}
           <a className="Home-link" href="/rsvp">
             click here
           </a>
@@ -44,7 +44,11 @@ const Home = () => {
           Topeka, KS 66611
         </div>
         <div className="Home-details-title">Attire:</div>
-        <div className="Home-details-description">Sunday best</div>
+        <div className="Home-details-description">
+          Sunday best. Be sure to wear comfortable shoes for standing, as there
+          will be limited seating in the church primarily for the elderly and
+          handicapped. The ceremony should last around half an hour.
+        </div>
         <div className="Home-details-title">Service information:</div>
         <div className="Home-details-description">
           In addition to the wedding ceremony at 3pm, there will be Orthros at
@@ -65,9 +69,9 @@ const Home = () => {
         <div className="Home-details-title">Reception:</div>
         <div className="Home-details-description">
           All are invited to a reception immediately following the ceremony at
-          Starlight Terrace, which is Room 465 of the Oklahoma State University
-          Student Union building at the below address. There will be a
-          buffet-style meal and a full bar, and your kids are welcome to join.
+          Starlight Terrace, Room 465 of the Oklahoma State University Student
+          Union building at the below address. There will be a buffet-style meal
+          and a full bar, and your kids are welcome to join.
           <br />
           <br />
           Oklahoma State University Student Union
@@ -82,7 +86,8 @@ const Home = () => {
           address. The hotel is connected to the OSU Student Union where the
           reception will be held. To reserve a room, call the front desk at
           (405) 372-2445 and let them know you would like a room for the McGinty
-          wedding.
+          wedding. Rooms are reserved until January 4 and are available on a
+          first-come first-served basis.
           <br />
           <br />
           The Atherton Hotel at Oklahoma State University
